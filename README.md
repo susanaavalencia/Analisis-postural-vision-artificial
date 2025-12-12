@@ -1,4 +1,4 @@
-# Dataset Procesado – Landmarks y Videos con Pose
+# Estimación de Pose Humana – Landmarks y Videos con Pose
 
 Este directorio contiene los datos generados después de aplicar los modelos de estimación de pose a los videos del dataset procesado.
 
