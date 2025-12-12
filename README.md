@@ -6,7 +6,7 @@ Los videos **no se encuentran alojados en GitHub** debido a su tamaño.
 Puedes acceder al dataset completo mediante el siguiente enlace:
 
  **Enlace al Dataset RAW (Google Drive):**  
-➡ (insertar enlace aquí)
+➡ https://drive.google.com/drive/folders/1JIjGxMrhbaHBAem9DV_lSXf4IyYOAfTU?usp=sharing
 
 ---
 
