@@ -14,14 +14,6 @@ Debido al tamaño del dataset, este se encuentra alojado en Google Drive:
 ---
 
 
-
-
-# Conversión de Formatos y Recorte de Repeticiones
-
-Esta rama contiene herramientas y scripts auxiliares utilizados para preparar los videos originales antes de ser incorporados al dataset principal del proyecto. Su función es garantizar que los videos estén en un formato estándar, limpio y dividido por repeticiones para los procesos posteriores de preprocesamiento y estimación de pose.
-
----
-
 #  1. Conversión de videos: MOV → MP4
 
 Muchos de los videos capturados desde dispositivos móviles vienen en formato **.MOV**, lo cual genera incompatibilidades con MediaPipe, OpenCV y otros pipelines de procesamiento.  
