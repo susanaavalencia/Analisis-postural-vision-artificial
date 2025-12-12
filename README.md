@@ -4,8 +4,7 @@ Este directorio contiene los datos generados después de aplicar los modelos de 
 
 Debido a su tamaño, la carpeta se encuentra alojada en Google Drive:
 
- **Enlace a Carpeta de Estimación de Pose (Google Drive):**  
-➡ (insertar enlace aquí)
+ **Enlace a Carpeta de Estimación de Pose (Google Drive):**   (insertar enlace aquí)
 
 ---
 
