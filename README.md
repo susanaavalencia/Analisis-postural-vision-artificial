@@ -9,9 +9,9 @@ Esta rama contiene herramientas y scripts auxiliares utilizados para preparar lo
 Muchos de los videos capturados desde dispositivos móviles vienen en formato **.MOV**, lo cual genera incompatibilidades con MediaPipe, OpenCV y otros pipelines de procesamiento.  
 Por esta razón, se incluye un conjunto de scripts para realizar:
 
-### ✔ Conversión masiva de archivos `.MOV` a `.MP4`  
-### ✔ Normalización del códec (H.264) compatible con la mayoría de librerías  
-### ✔ Compresión   
+###  Conversión masiva de archivos `.MOV` a `.MP4`  
+###  Normalización del códec (H.264) compatible con la mayoría de librerías  
+###  Compresión   
 
 Los scripts utilizan **FFmpeg**, herramienta estándar en procesamiento de video.
 
