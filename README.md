@@ -35,7 +35,7 @@ Esto permite tener un dataset más ordenado y facilita el procesamiento frame-by
 
 ##  Scripts incluidos
 
-### **Recortes.pynb**
+### **RECORTES.pynb**
 Convierte todos los videos de una carpeta de manera automática al establecer los puntos de recorte.
 
 Ambos scripts permiten ajustar:
