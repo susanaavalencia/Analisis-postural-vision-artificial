@@ -29,12 +29,12 @@ Código utilizado en:
 - Generación del dataset final.
 ---
 
-## 🎯 Objetivo del Proyecto
+## Objetivo del Proyecto
 Desarrollar un sistema basado en visión artificial que detecte posturas incorrectas en ejercicios de fuerza y proporcione retroalimentación automática para la prevención de lesiones y mejora del rendimiento.
 
 ---
 
-## 📥 Acceso al Dataset Completo
+## Acceso al Dataset Completo
 Los enlaces están disponibles dentro de:
 
 - `/01-Dataset-RAW/link_dataset_raw.txt`
@@ -42,5 +42,5 @@ Los enlaces están disponibles dentro de:
 
 ---
 
-## 📄 Licencia
+## Licencia
 Este proyecto se distribuye únicamente con fines académicos.
