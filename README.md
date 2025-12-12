@@ -1,47 +1,45 @@
+# Conversión de Formatos y Recorte de Repeticiones
 
-# Sistema de Visión Artificial para la Detección y Corrección de Posturas en Ejercicios Físicos
-
-Este repositorio contiene la documentación, scripts y organización del dataset utilizado en el proyecto de visión artificial orientado a la corrección automática de posturas en ejercicios de entrenamiento de fuerza.
-
-Debido al tamaño del dataset, los archivos de video no se alojan directamente en GitHub, sino en Google Drive. En cada carpeta correspondiente se incluye un enlace oficial de descarga.
+Esta rama contiene herramientas y scripts auxiliares utilizados para preparar los videos originales antes de ser incorporados al dataset principal del proyecto. Su función es garantizar que los videos estén en un formato estándar, limpio y dividido por repeticiones para los procesos posteriores de preprocesamiento y estimación de pose.
 
 ---
 
-##  Estructura del Repositorio
+#  1. Conversión de videos: MOV → MP4
 
-### **01-Dataset-RAW/**
-Contiene la información del dataset original:
-- Videos sin preprocesar.
-- Tomas frontal y lateral.
-- 4 ejercicios: sentadilla, peso muerto, curl de bíceps y press de banca.
-- Enlace de descarga desde Google Drive.
+Muchos de los videos capturados desde dispositivos móviles vienen en formato **.MOV**, lo cual genera incompatibilidades con MediaPipe, OpenCV y otros pipelines de procesamiento.  
+Por esta razón, se incluye un conjunto de scripts para realizar:
 
-### **02-Dataset-Procesado/**
-Incluye los datos generados por los modelos de estimación de pose:
-- Landmarks en formato CSV/JSON.
-- Videos con skeleton overlay.
-- Archivos preprocesados para entrenamiento.
-- Enlace a la carpeta completa en Google Drive.
+### ✔ Conversión masiva de archivos `.MOV` a `.MP4`  
+### ✔ Normalización del códec (H.264) compatible con la mayoría de librerías  
+### ✔ Compresión   
 
-### **03-Scripts/**
-Código utilizado en:
-- Preprocesamiento de videos.
-- Estimación de pose (MediaPipe y/o OpenPose).
-- Generación del dataset final.
----
-
-## Objetivo del Proyecto
-Desarrollar un sistema basado en visión artificial que detecte posturas incorrectas en ejercicios de fuerza y proporcione retroalimentación automática para la prevención de lesiones y mejora del rendimiento.
+Los scripts utilizan **FFmpeg**, herramienta estándar en procesamiento de video.
 
 ---
 
-## Acceso al Dataset Completo
-Los enlaces están disponibles dentro de:
+## Scripts incluidos
 
-- `/01-Dataset-RAW/link_dataset_raw.txt`
-- `/02-Dataset-Procesado/link_dataset_procesado.txt`
+### **MOV_A_MP4.py**
+Convierte un solo video MOV a MP4.
+
+
 
 ---
 
-## Licencia
-Este proyecto se distribuye únicamente con fines académicos.
+# 2. Recorte de repeticiones de ejercicios
+
+En esta rama también se incluyen los scripts para segmentar cada repetición de un ejercicio dentro de un video original continuo.  
+Esto permite tener un dataset más ordenado y facilita el procesamiento frame-by-frame.
+
+---
+
+##  Scripts incluidos
+
+### **Recortes.pynb**
+Convierte todos los videos de una carpeta de manera automática al establecer los puntos de recorte.
+
+Ambos scripts permiten ajustar:
+- resolución,
+- bitrate,
+- códec,
+- directorio de salida.
