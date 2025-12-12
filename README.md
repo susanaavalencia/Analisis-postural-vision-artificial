@@ -1,3 +1,21 @@
+# Data Set Procesado 
+
+En esta rama se adjunta el **data set procesado**, el cual incluye:
+
+- Recortes individuales de cada repetición de los ejercicios  
+- Conversión completa de los videos originales de formato **MOV → MP4**  
+- Organización estandarizada para facilitar el preprocesamiento, extracción de pose y entrenamiento del modelo
+
+Debido al tamaño del dataset, este se encuentra alojado en Google Drive:
+
+ **Enlace al dataset procesado (recortes + MOV→MP4):**  
+ (insertar aquí el enlace de Drive)
+
+---
+
+
+
+
 # Conversión de Formatos y Recorte de Repeticiones
 
 Esta rama contiene herramientas y scripts auxiliares utilizados para preparar los videos originales antes de ser incorporados al dataset principal del proyecto. Su función es garantizar que los videos estén en un formato estándar, limpio y dividido por repeticiones para los procesos posteriores de preprocesamiento y estimación de pose.
