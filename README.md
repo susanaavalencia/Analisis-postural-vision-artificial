@@ -14,7 +14,7 @@ Debido al tamaño del dataset, este se encuentra alojado en Google Drive:
 ---
 
 
-#  1. Conversión de videos: MOV → MP4
+#  Conversión de videos: MOV → MP4
 
 Muchos de los videos capturados desde dispositivos móviles vienen en formato **.MOV**, lo cual genera incompatibilidades con MediaPipe, OpenCV y otros pipelines de procesamiento.  
 Por esta razón, se incluye un conjunto de scripts para realizar:
@@ -36,7 +36,7 @@ Convierte un solo video MOV a MP4.
 
 ---
 
-# 2. Recorte de repeticiones de ejercicios
+# Recorte de repeticiones de ejercicios
 
 En esta rama también se incluyen los scripts para segmentar cada repetición de un ejercicio dentro de un video original continuo.  
 Esto permite tener un dataset más ordenado y facilita el procesamiento frame-by-frame.
