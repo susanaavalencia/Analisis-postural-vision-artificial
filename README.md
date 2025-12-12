@@ -23,11 +23,11 @@ Incluye los datos generados por los modelos de estimación de pose:
 - Archivos preprocesados para entrenamiento.
 - Enlace a la carpeta completa en Google Drive.
 
-### **03-Scripts/**
+### **03-Preprocesamiento-Estimacion-Pose/**
 Código utilizado en:
 - Preprocesamiento de videos.
 - Estimación de pose (MediaPipe y/o OpenPose).
-- Generación del dataset final.
+- Generación de Landmarks.
 ---
 
 ## Objetivo del Proyecto
