@@ -19,7 +19,7 @@ Los scripts utilizan **FFmpeg**, herramienta estándar en procesamiento de video
 
 ## Scripts incluidos
 
-### **MOV_A_MP4.py**
+### **MOVaMP4.py**
 Convierte un solo video MOV a MP4.
 
 
