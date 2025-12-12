@@ -2,7 +2,7 @@
 
 Este directorio contiene los datos generados después de aplicar los modelos de estimación de pose a los videos del dataset procesado.
 
-Debido a su tamaño, la carpeta se encuentra alojado en Google Drive:
+Debido a su tamaño, la carpeta se encuentra alojada en Google Drive:
 
  **Enlace a Carpeta de Estimación de Pose (Google Drive):**  
 ➡ (insertar enlace aquí)
@@ -12,22 +12,39 @@ Debido a su tamaño, la carpeta se encuentra alojado en Google Drive:
 ## Contenido de Estimación de Pose
 
 Incluye:
-- Landmarks de MediaPipe:
-  - Formato CSV.
-  - Coordenadas normalizadas.
+- Landmarks obtenidos con MediaPipe Pose:
+  - Archivos en formato CSV.
+  - Coordenadas normalizadas para cada fotograma.
 - Videos con skeleton overlay.
-- Archivo de preprocesamiento:
+- Archivos de preprocesamiento:
   - Corrección de contraste
-  - Recorte
+  - Recortes de cada repetición
   - Aumento de iluminación
-- Carpeta de recortes de videos RAW → procesado.
+- Carpeta con videos recortados RAW → procesado.
 
 ---
 
-##  Propósito
-La carpeta de estimación de pose humana es la fuente principal para:
-- el entrenamiento del modelo,
-- el análisis biomecánico de posturas,
-- la clasificación de ejercicios.
+## Código incluido en esta carpeta
 
-Cada archivo corresponde a su video RAW equivalente, variando en el número de repetición.
+Se adjunta el siguiente archivo desarrollado en Google Colab:
+
+### **ESTIMACION POSE.ipynb**
+Notebook en el cual se realiza:
+- La carga de los videos preprocesados.
+- La estimación de pose utilizando **MediaPipe Pose**.
+- La generación de:
+  - Landmarks por fotograma.
+  - Videos con esqueleto dibujado.
+  - CSV finales listos para análisis y modelado.
+
+Este notebook corresponde al pipeline oficial utilizado para generar la base de datos procesada.
+
+## Propósito
+
+La carpeta de estimación de pose humana es la fuente principal para:
+- El entrenamiento del modelo,
+- El análisis biomecánico de posturas,
+- La clasificación de ejercicios,
+- La reconstrucción del movimiento mediante landmarks.
+
+
