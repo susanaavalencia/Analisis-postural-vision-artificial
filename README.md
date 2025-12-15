@@ -9,7 +9,7 @@ En esta rama se adjunta el **data set procesado**, el cual incluye:
 Debido al tamaño del dataset, este se encuentra alojado en Google Drive:
 
  **Enlace al dataset procesado (recortes + MOV→MP4):**  
- (insertar aquí el enlace de Drive)
+ https://drive.google.com/drive/folders/1zfDRAhNr1LgnQu1TkkodsuWtNRBOd9GO?usp=sharing
 
 ---
 
