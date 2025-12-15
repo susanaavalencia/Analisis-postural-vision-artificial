@@ -18,7 +18,7 @@ Contiene la información del dataset original:
 
 ### **02-Dataset-Procesado**
 Incluye los datos generados por los modelos de estimación de pose:
-- Landmarks en formato CSV/JSON.
+- Landmarks en formato CSV.
 - Videos con skeleton overlay.
 - Archivos preprocesados para entrenamiento.
 - Enlace a la carpeta completa en Google Drive.
