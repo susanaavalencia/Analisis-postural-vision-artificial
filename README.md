@@ -34,7 +34,7 @@ Desarrollar un sistema basado en visión artificial que detecte posturas incorre
 ---
 
 ## Acceso al Dataset Completo
-Los enlaces están disponibles dentro de los archivos README de cada sección.
+Los enlaces están disponibles dentro de los archivos README.md de cada sección.
 
 ---
 
