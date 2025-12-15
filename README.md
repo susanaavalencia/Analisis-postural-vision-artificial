@@ -10,17 +10,15 @@ Debido al tamaño del dataset, los archivos de video no se alojan directamente e
 ##  Estructura del Repositorio
 
 ### **01-Dataset-RAW**
-Contiene la información del dataset original:
+Contiene la información del data set original:
 - Videos sin preprocesar.
 - Tomas frontal y lateral.
 - 4 ejercicios: sentadilla, peso muerto, curl de bíceps y press de banca.
 - Enlace de descarga desde Google Drive.
 
 ### **02-Dataset-Procesado**
-Incluye los datos generados por los modelos de estimación de pose:
-- Landmarks en formato CSV.
-- Videos con skeleton overlay.
-- Archivos preprocesados para entrenamiento.
+Contiene la información del data set final, con:
+- Videos recortados.
 - Enlace a la carpeta completa en Google Drive.
 
 ### **03-Preprocesamiento-Estimacion-Pose**
